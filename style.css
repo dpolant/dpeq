@@ -1,0 +1,412 @@
+/* 
+Theme Name: DPEQ
+Description: based on Equilibrium
+Author: Dan Polant
+Template: Equilibrium
+*/
+ 
+@import url("../Equilibrium/style.css");
+
+body {
+	margin:0;
+	background:#302D23;
+}
+
+code {
+	font-size:12px;
+}
+
+a, p a, p a:visited, #footer p a, #sidebar li a, .commentmetadata li a {
+	color:#915A31;
+	border:0;
+	text-decoration:none;
+	font-size:12px;
+}
+
+a:hover, p a:hover, p a:hover, #footer p a:hover, #sidebar li a:hover, .commentmetadata li a:hover {
+	color:#CF9572;
+	border:0;
+	text-decoration:none;
+	background:transparent;
+}
+
+a.light-up:hover {
+	opacity:.6;
+}
+
+.post p a{
+	font-family:Georgia, "Times New Roman", Times, serif;
+}
+
+.featured-title h2 a:hover, .latest-title h2 a:hover {
+	color:#CF9572;
+}
+
+#body-squeeze-shadow-left {
+	background:url("images/left-side-shadow.png") repeat-y scroll left;
+	margin:0 auto;
+	width:900px;
+	padding-left:22px;
+}
+
+#body-squeeze-shadow-right {
+	background:url("images/right-side-shadow.png") repeat-y scroll right;
+	width:879px;
+	padding-right:23px;
+}
+
+#body-squeeze {
+	width:880px;
+	background:#ffffff;
+	padding:0;
+	margin:0 auto;
+}
+
+#page-wrap {
+	width:100%;
+	padding:0;
+}
+
+#nav-strip {
+	background:url("images/nav-gradient.png") repeat-x;
+	border-top:14px solid #302D23;
+}
+
+#nav {
+	height:39px;
+	margin:0 auto;
+	width:880px;
+}
+
+#nav a:link, #nav a:visited{
+	color:#000;
+	font-size:10pt;
+	padding:11px 30px 12px;
+	font-weight:normal;
+	text-transform:none;
+	margin:0;
+}
+
+#nav a:hover{
+	background:transparent;
+	color:#B9E04B;
+}
+
+ul#nav li.current_page_item a:link, ul#nav li.current_page_item a:visited, ul#nav li.current_page_item a:hover, ul#nav li.current_page_item a:active {
+	background:url("images/selected.png") no-repeat center top;
+	color:#000;
+}
+
+/** Top section **/
+
+#resume-icon {
+	position:absolute;
+	bottom:10px;
+	right:50px;
+}
+
+#top h1.logo a, #top ul {
+	float:none;
+}
+
+#top h1.logo {
+	display:none;
+}
+
+#top-links {
+	list-style-type:none; 
+	width:100%;
+	height:40px;
+	padding:33px 0 7px;
+	text-align:center;
+	background:#302D23;
+	font-size:13pt;
+	color:#ffffff;
+}
+
+#top-links li {
+	display:inline;
+	padding:23px 40px 10px;
+}
+
+#top{
+	font-family:"Century Gothic",Arial,Helvetica,sans-serif;
+	margin-top:0;
+	padding:0;
+	background:#ffffff;
+}
+
+#drupal-wordpress {
+	background:url("images/green-check.png") no-repeat;
+}
+
+#interaction-design {
+	background:url("images/orange-check.png") no-repeat;
+}
+
+#usability-testing {
+	background:url("images/blue-check.png") no-repeat;
+}
+
+#my-header {
+	background:url("images/header.png") no-repeat;
+	background-position:center center;
+	background-color:#BAE04E;
+	height:214px;
+	width:100%;
+	position:relative;
+}
+
+/** main content **/
+
+#featured h2, #front-bottom h2 {
+	font-weight:normal;
+}
+
+h2, h4, #sidebar h2 {
+	text-transform:none;
+	border:0;
+	padding:35px 0 8px 50px;
+	font-size:14pt;
+	font-family:"Century Gothic",Arial,Helvetica,sans-serif;
+	border-bottom:2px solid #302D23;
+	margin:0;
+	text-align:left;
+	position:relative;
+}
+
+#sidebar h2 {
+	padding:35px 35px 8px 0;
+}
+
+strong {
+	font-size: 1em;
+}
+
+.post p {
+	padding:0;	
+}
+
+.post p, .latest-content p, .post ul{
+	font-family:Georgia, "Times New Roman", Times, serif;
+	line-height:200%;
+}
+
+.latest-content p p.moretext {
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+#footer {
+	margin:0;
+}
+
+#sidebar {
+	padding-left:0;
+}
+
+#sidebar ul form, #sidebar ul div, #sidebar ul ul, #sidebar ul p, #sidebar ul a {
+	padding-right:35px;
+}
+
+#s {
+	width:171px;
+}
+
+#featured-loop {
+	padding:50px 50px 10px;
+}
+
+.featured-post {
+	text-align:center;	
+}
+
+.front-post, .front-post-last, .featured-post {
+	width:250px;
+}
+
+.front-post {
+	margin-right:15px;
+}
+
+.featured-title {
+	position:relative;
+	bottom:auto;
+	background:transparent;
+	opacity:1;
+	
+}
+.featured-title h2 {
+	padding:0;
+	text-align:center;
+}
+
+.featured-title h2 a, .latest-title h2 a, h3 a {
+	color:#6B4424;
+	font-family:"Century Gothic",Arial,Helvetica,sans-serif;
+	line-height:150%;
+
+}
+
+.latest-post-wrap{
+	width:43%;
+	margin-right:50px;
+}
+
+.latest-content {
+	width:100%;
+}
+
+.latest-title {
+	background:transparent;
+	opacity:1;
+	position:relative;
+}
+
+.latest-title h2 a, .featured-title h2 a, h3 a {
+	font-size:12pt;
+	font-weight:bold;
+}
+
+.latest-title h2 {
+	padding:0;
+}
+
+.latest-post {
+	height:auto;
+	width:auto;
+}
+
+.featured-image {
+	position:relative;
+}
+
+#latest-wrap {
+	float:none;
+	width:100%;
+}
+
+#front-bottom {
+	margin:0;
+}
+
+#front-bottom h2{
+	margin:8px 0 7px 0;
+}
+
+div.content {
+	width:auto;
+	padding:40px 0 0 50px;
+}
+
+div.half-content {
+	padding:40px 0 0 50px;
+	margin:0 50px 50px 0;
+}
+
+div.half-content-wrap {
+	float:left;
+	width:50%;
+}
+
+#right-half h2, #right-half .half-content {
+	padding-left:18px
+}
+#tags {
+	border-top:1px solid;
+	padding-top:10px;
+	font-size:12px;
+}
+
+.latest-content {
+	height:auto;
+}
+
+.latest-content p {
+	line-height:185%;
+	text-align:left;
+}
+
+.latest-content p.moretext {
+	margin-bottom:10px;
+	line-height:1.5em;
+}
+
+#footer {
+	padding:50px;
+	background:#fff;
+	width:auto;
+	height:auto;
+}
+
+#footer p {
+	text-align:center;
+	margin:0;
+	padding:0;
+}
+
+/** single **/
+
+div.single-post {
+	padding:2px 50px 40px;
+	width:520px;
+	float:left;
+}
+
+.comment-heading {
+	margin:0;
+}
+
+.commentwrap {
+	border-top:1px solid #C9C9C9;
+}
+
+.commentpost {
+	width:396px;
+}
+
+.post h3{
+	font-size:15px;
+	font-family:"Century Gothic",Arial,Helvetica,sans-serif;
+}
+
+/** Portfolio **/
+
+#featured-loop.portfolio {
+	padding-top:0;
+}
+
+.single-post .front-post {
+	width:245px;
+}
+
+#featured #sidebar h2 {
+	font-weight:bold;
+}
+
+/** archives **/
+h3 {
+	border-bottom:1px solid;
+}
+
+.post {
+	width:auto;
+}
+
+/** pictures **/
+
+p.wp-caption-text {
+	margin:0;
+	padding:0 5px;
+	text-align:center;
+}
+
+.wp-caption {
+	border:1px solid #ccc;
+	padding:3px;
+	text-align:center;
+}
+
+.wp-caption img {
+	padding:3px;
+	margin:0;
+}
