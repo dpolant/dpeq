@@ -3,7 +3,7 @@
 <div id="body-squeeze-shadow-right">
 <div id="body-squeeze">
 
-<h2><strong>Search Results</strong><a id="resume-icon" href="http://danpolant.com/wp-content/uploads/2010/05/resume_current.pdf">Resume <img src="http://danpolant.com/wp-content/themes/dpeq/images/pdf_icon.png"/></a></h2>
+<h2><strong>Search Results</strong><a id="resume-icon" href="http://danpolant.com/wp-content/uploads/2015/02/2015Resume.pdf">Resume <img src="http://danpolant.com/wp-content/themes/dpeq/images/pdf_icon.png"/></a></h2>
 
 <div class="single-post content">
 		<?php if (have_posts()) : ?>
